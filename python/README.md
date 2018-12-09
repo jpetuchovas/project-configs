@@ -24,7 +24,7 @@ Run `pre-commit install` to install [pre-commit](https://pre-commit.com/) into y
 
 ## Code quality tools used
 
-The following tools are used to check code quality:
+The following tools are used to ensure code quality:
 
 - isort,
 - Black,
