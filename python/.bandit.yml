@@ -1,0 +1,15 @@
+exclude_dirs:
+  - tests
+
+skips:
+  - B103
+  - B307
+  - B404
+  - B603
+  - B608
+
+try_except_continue:
+  check_typed_exception: false
+
+try_except_pass:
+  check_typed_exception: false
