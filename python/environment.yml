@@ -48,10 +48,10 @@ dependencies:
   - zlib=1.2.11=h470a237_3
   - typed-ast=1.1.0=py37h14c3975_0
   - pip:
-      - bandit==1.5.1
-      - flake8-bugbear==18.8.0
-      - gitdb2==2.0.5
-      - gitpython==2.1.11
-      - pbr==5.1.1
-      - smmap2==2.0.5
-      - stevedore==1.30.0
+    - bandit==1.5.1
+    - flake8-bugbear==18.8.0
+    - gitdb2==2.0.5
+    - gitpython==2.1.11
+    - pbr==5.1.1
+    - smmap2==2.0.5
+    - stevedore==1.30.0
