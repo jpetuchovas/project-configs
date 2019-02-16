@@ -18,7 +18,7 @@ repos:
       - id: bandit
         args: [--configfile, .bandit.yml]
   - repo: https://github.com/PyCQA/flake8
-    rev: 9a9237a3386acb4a28b3eeb237e24cce973f17f6
+    rev: '3.7.5'
     hooks:
       - id: flake8
         additional_dependencies:
