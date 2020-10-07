@@ -1,4 +1,6 @@
-# Configuration files for a Python project
+# [DEPRECATED] Configuration files for a Python project
+
+No longer maintained.
 
 ## Environment setup
 

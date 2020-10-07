@@ -1,3 +1,3 @@
 # Project configuration files
 
-Configuration files for various projects.
+Configuration/dependency files for various projects.
