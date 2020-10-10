@@ -1,4 +1,10 @@
+black
+isort
 jupyterlab
+matplotlib
+mypy
 numpy
 pandas
 scikit-learn
+scipy
+seaborn
