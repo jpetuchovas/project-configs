@@ -16,7 +16,7 @@ certifi==2020.6.20        # via matplotlib, requests
 cffi==1.14.3              # via argon2-cffi
 chardet==3.0.4            # via requests
 click==7.1.2              # via black
-cycler==0.10.0            # via matplotlib
+cycler==0.10.0            # via matplotlib, yellowbrick
 decorator==4.4.2          # via ipython
 defusedxml==0.6.0         # via nbconvert
 entrypoints==0.3          # via nbconvert
@@ -24,7 +24,7 @@ idna==2.10                # via requests
 ipykernel==5.3.4          # via notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.18.1           # via ipykernel
-isort==5.6.1              # via -r requirements.in
+isort==5.6.4              # via -r requirements.in
 jedi==0.17.2              # via ipython
 jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, notebook
 joblib==0.17.0            # via scikit-learn
@@ -34,41 +34,41 @@ jupyter-client==6.1.7     # via ipykernel, nbclient, notebook
 jupyter-core==4.6.3       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-pygments==0.1.2  # via nbconvert
 jupyterlab-server==1.2.0  # via jupyterlab
-jupyterlab==2.2.8         # via -r requirements.in
+jupyterlab==2.2.9         # via -r requirements.in
 kiwisolver==1.2.0         # via matplotlib
 markupsafe==1.1.1         # via jinja2
-matplotlib==3.3.2         # via -r requirements.in, seaborn
+matplotlib==3.3.2         # via -r requirements.in, seaborn, yellowbrick
 mistune==0.8.4            # via nbconvert
 mypy-extensions==0.4.3    # via black, mypy
 mypy==0.790               # via -r requirements.in
-nbclient==0.5.0           # via nbconvert
+nbclient==0.5.1           # via nbconvert
 nbconvert==6.0.7          # via notebook
-nbformat==5.0.7           # via nbclient, nbconvert, notebook
+nbformat==5.0.8           # via nbclient, nbconvert, notebook
 nest-asyncio==1.4.1       # via nbclient
 notebook==6.1.4           # via jupyterlab, jupyterlab-server
-numpy==1.19.2             # via -r requirements.in, matplotlib, pandas, scikit-learn, scipy, seaborn
+numpy==1.19.2             # via -r requirements.in, matplotlib, pandas, scikit-learn, scipy, seaborn, yellowbrick
 packaging==20.4           # via bleach
 pandas==1.1.3             # via -r requirements.in, seaborn
-pandocfilters==1.4.2      # via nbconvert
+pandocfilters==1.4.3      # via nbconvert
 parso==0.7.1              # via jedi
 pathspec==0.8.0           # via black
 pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
-pillow==7.2.0             # via matplotlib
+pillow==8.0.1             # via matplotlib
 prometheus-client==0.8.0  # via notebook
-prompt-toolkit==3.0.7     # via ipython
+prompt-toolkit==3.0.8     # via ipython
 ptyprocess==0.6.0         # via pexpect, terminado
 pycparser==2.20           # via cffi
-pygments==2.7.1           # via ipython, jupyterlab-pygments, nbconvert
+pygments==2.7.2           # via ipython, jupyterlab-pygments, nbconvert
 pyparsing==2.4.7          # via matplotlib, packaging
 pyrsistent==0.17.3        # via jsonschema
 python-dateutil==2.8.1    # via jupyter-client, matplotlib, pandas
 pytz==2020.1              # via pandas
 pyzmq==19.0.2             # via jupyter-client, notebook
-regex==2020.9.27          # via black
+regex==2020.10.23         # via black
 requests==2.24.0          # via jupyterlab-server
-scikit-learn==0.23.2      # via -r requirements.in
-scipy==1.5.2              # via -r requirements.in, scikit-learn, seaborn
+scikit-learn==0.23.2      # via -r requirements.in, yellowbrick
+scipy==1.5.3              # via -r requirements.in, scikit-learn, seaborn, yellowbrick
 seaborn==0.11.0           # via -r requirements.in
 send2trash==1.5.0         # via notebook
 six==1.15.0               # via argon2-cffi, bleach, cycler, jsonschema, packaging, python-dateutil
@@ -77,12 +77,13 @@ testpath==0.4.4           # via nbconvert
 threadpoolctl==2.1.0      # via scikit-learn
 toml==0.10.1              # via black
 tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
-traitlets==5.0.4          # via ipykernel, ipython, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
+traitlets==5.0.5          # via ipykernel, ipython, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
 typed-ast==1.4.1          # via black, mypy
 typing-extensions==3.7.4.3  # via black, mypy
-urllib3==1.25.10          # via requests
+urllib3==1.25.11          # via requests
 wcwidth==0.2.5            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
+yellowbrick==1.2          # via -r requirements.in
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
